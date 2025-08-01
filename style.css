@@ -1,0 +1,27 @@
+/* Custom font classes for a nice look */
+.font-pacifico { 
+    font-family: 'Pacifico', cursive; 
+}
+
+.font-poppins { 
+    font-family: 'Poppins', sans-serif; 
+}
+
+/* Simple spinner for loading states, very lightweight */
+.spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border-left-color: #09f;
+    animation: spin 1s ease infinite;
+}
+
+@keyframes spin {
+    0% { 
+        transform: rotate(0deg); 
+    }
+    100% { 
+        transform: rotate(360deg); 
+    }
+}
